@@ -28,6 +28,6 @@ while math:
    print(f"a+b={a+b}")
    print(f"a*b={a*b}")
    try:
-       print(f"a/b={a/b}")
+       print(f"a/b={round(a/b, 2)}")
    except:
        print("a/b= Ділити на нуль не можна")
